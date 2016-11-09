@@ -25,6 +25,8 @@
     ratingCtrl.rating = 0;
     ratingCtrl.delegate = self;
     [self.view addSubview:ratingCtrl];
+    
+    NSLog(@"张松修改了");
 }
 
 - (void)ratingControl:(ZSRatingControl *)ratingControl didSelectedRating:(NSInteger)selectedRating
